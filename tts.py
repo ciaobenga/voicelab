@@ -29,7 +29,7 @@ from livekit.agents.utils import is_given
 from livekit.agents.voice.io import TimedString
 from livekit.agents.log import logger
 
-from vogent_models import (
+from .vogent_models import (
     DEFAULT_SAMPLE_RATE,
     DEFAULT_VOICE_ID,
     DEFAULT_BASE_URL,
